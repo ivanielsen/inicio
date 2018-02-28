@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*tres tipos de selectores:
+    -de etiqueta.
+    -de clase.
+    -de id(más particular).
+elemento-
+-selector de clase.
+-selector de id.
+*/
+body{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    background-color:#4CB3AE;
+    padding: 0;
+    margin: 0;
+}
+.resaltar{
+    color: red;
+}
+
+/*h1{
+    text-align: center;
+}*/
+h2{
+    text-align: center;
+}
+
+#encabezado{
+    text-transform: uppercase;
+    
+}
+header{
+    background-image: url(images/background-header.jpg);
+    padding: 30px;
+    text-align: center;
+    color: darkgrey;
+}
+nav {
+    background: #FCC4AF;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    /*padding: 10px;*/
+    /*Orden del margen. arriba: 10  derecha; 40 abajo:10  izquierda; 0 */
+    margin:10px  40px 10px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#464545;
+}
+article{
+    width: 960px;
+    margin: auto;
+    /*background-color: white;*/
+}
