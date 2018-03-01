@@ -1,6 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
 
+/* CSS Document */
+/*@import url('https://fonts.googleapis.com/css?family=Krona+One|Raleway');*/
 /*tres tipos de selectores:
     -de etiqueta.
     -de clase.
@@ -15,48 +16,41 @@ body{
     padding: 0;
     margin: 0;
 }
-.resaltar{
-    color: red;
-}
 
-/*h1{
-    text-align: center;
-}*/
-h2{
-    text-align: center;
+.container-fluid{
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
+.carousel, .carousel-inner > .carousel-item > img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contenedor{
+    height:400px;
+    width: 1920px;
+  }
+  .portada{
+    background-video: url('../images/yucatan_header_0.jpg');
+    margin-top: 24px;
+}
+.titulodecolumnas {
+    margin-top: 24px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
 
-#encabezado{
-    text-transform: uppercase;
-    
 }
-header{
-    background-image: url(images/background-header.jpg);
-    padding: 30px;
-    text-align: center;
-    color: darkgrey;
+.cartas{
+    margin-top:50px;
 }
-nav {
-    background: #FCC4AF;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li{
-    display: inline-block;
-    /*padding: 10px;*/
-    /*Orden del margen. arriba: 10  derecha; 40 abajo:10  izquierda; 0 */
-    margin:10px  40px 10px 0px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color:#464545;
-}
-article{
-    width: 960px;
-    margin: auto;
-    /*background-color: white;*/
+.newspaper {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 2;
+    text-align: left;
+    padding-right: 400px;
+    padding-left: 400px;
 }
