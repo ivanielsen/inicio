@@ -32,7 +32,7 @@ body{
     width: 1920px;
   }
   .portada{
-    background-video: url('../images/yucatan_header_0.jpg');
+    background-image: url('../images/yucatan_header_0.jpg');
     margin-top: 24px;
 }
 .titulodecolumnas {
